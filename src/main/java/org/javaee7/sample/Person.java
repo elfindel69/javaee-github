@@ -42,6 +42,16 @@ public class Person {
         this.prenom = prenom;
     }
 
+
+    public String getMail() {
+        return prenom;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+
     @Override
     public String toString() {
         return name;
