@@ -8,6 +8,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Person {
     private String name;
+    private Sring prenom;
 
     public Person() {
     }
@@ -15,6 +16,11 @@ public class Person {
     public Person(String name) {
         this.name = name;
     }
+
+     public Person(String name,String prenom) {
+        this.name = name;
+    }
+    
     
     public String getName() {
         return name;
