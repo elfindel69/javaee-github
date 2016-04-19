@@ -22,7 +22,8 @@ public class PersonDatabase {
                 new Person("Howard"), 
                 new Person("Bernadette"), 
                 new Person("Raj"), 
-                new Person("Priya"));
+                new Person("Priya"),
+                new Person("Doctor"));
     }
 
     public Person[] currentList() {
