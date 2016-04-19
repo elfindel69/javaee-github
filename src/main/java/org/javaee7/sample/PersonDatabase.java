@@ -26,7 +26,7 @@ public class PersonDatabase {
                 new Person("Doctor"),
                 new Person("Tony"),
                 new Person("Natasha"));
-    }
+
 
     public Person[] currentList() {
         return persons.toArray(new Person[0]);
