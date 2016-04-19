@@ -21,8 +21,10 @@ public class Person {
         this.name = name;
     }
 
-     public Person(String name,String prenom) {
+     public Person(String name,String prenom,String mail) {
         this.name = name;
+        this.prenom = prenom;
+        this.mail = mail;
     }
     
     
